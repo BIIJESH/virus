@@ -1,4 +1,3 @@
-#
 # ~/.bashrc
 #
 # Enable bash-completion
@@ -23,7 +22,8 @@ alias fm='thunar'
 alias cls='clear'
 # Your prompt configuration
 shopt -s autocd
+
 set -o vi 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-neofetch
+#neofetch
 alias pgadmin='source /var/lib/postgres/pgadmin4/bin/activate'
