@@ -22,7 +22,7 @@ alias fm='thunar'
 alias cls='clear'
 # Your prompt configuration
 shopt -s autocd
-
+alias ex='exit'
 set -o vi 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 #neofetch
