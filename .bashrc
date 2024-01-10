@@ -1,5 +1,4 @@
 # ~/.bashrc
-#
 # Enable bash-completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
@@ -23,7 +22,8 @@ alias cls='clear'
 # Your prompt configuration
 shopt -s autocd
 alias ex='exit'
-set -o vi 
+#set -o vi 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 #neofetch
 alias pgadmin='source /var/lib/postgres/pgadmin4/bin/activate'
+
