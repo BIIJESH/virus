@@ -38,7 +38,7 @@ paru -S neovim-presence-git rpcpp
   chmod +x ~/.config/hypr/scripts/batterynotify.sh
   chmod +x ~/.config/hypr/scripts/power.sh
   chmod +x ~/.config/hypr/scripts/lookup.sh
-  chmod +x ~/.config/hypr/scirpts/launch_spt
+  chmod +x ~/.config/hypr/scripts/launch_spt
   chmod +x ~/.config/hypr/scripts/killrpcpp
   chmod +x ~/.config/hypr/scripts/startrpcpp
   
