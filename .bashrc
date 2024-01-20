@@ -22,8 +22,10 @@ alias cls='clear'
 # Your prompt configuration
 shopt -s autocd
 alias ex='exit'
-#set -o vi 
+alias xam='sudo /opt/lampp/lampp start'
+set -o vi 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 #neofetch
 alias pgadmin='source /var/lib/postgres/pgadmin4/bin/activate'
 
+. "$HOME/.cargo/env"
