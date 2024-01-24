@@ -26,6 +26,6 @@ alias xam='sudo /opt/lampp/lampp start'
 set -o vi 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 #neofetch
-alias pgadmin='source /var/lib/postgres/pgadmin4/bin/activate'
+alias pgadmin='source pgadmin4/bin/activate'
 
 . "$HOME/.cargo/env"
